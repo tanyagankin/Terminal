@@ -1,0 +1,40 @@
+1) cd
+2) mkdir1
+3) cd1
+4) mkdir dir_1 dir_2 dir_3
+5) cd dir_2
+6) touch 1.txt 2.txt 3.txt 1.json 2.json
+7) mkdir dir_4 dir_5 dir_6
+8) ls,ls -la
+9) vim 1txt ( cat 1.txt,enter) cat > 1.txt
+10) Insert (cat > 1.txt)
+11) Esc,Shift: WQ, Enter
+12) cd ..
+13) mv dir_1/{2.txt,3.txt} dir_2/
+14) cp dir_2/{2.txt,3.txt} dir_1/
+15) find . -name "*2*"
+16) find dir_1(dir_2) -name"*r*"("t*")
+17) find . type d -name "*d*)
+18) find . type f -name "*1*"
+19) tail -f 2.txt
+20) head -5 2.txt
+21) tail -4 2.txt
+22) less 1.txt(QA33/1/dir_1)
+23) date
+24) date +"%a"
+25) date +%A
+26) date +%d.%m.%Y
+27) date +%H.%M.%S
+28) date +%T
+29) date +%R
+30) date +%D
+31) http://162.55.220.72:5005/terminal-hw-request - curl http://162.55.220.72:5005/terminal-hw-request
+32) #!/bin/bash
+#QA33 Group 3
+cd 2
+mkdir dir_1 dir_2 dir_3
+cd dir_2
+touch 1.txt 2.txt 3.txt 1.json 2.json
+mkdir dir_4 dir_5 dir_6
+ls -la
+mv dir_1/{2.txt,3.txt} dir_2/
