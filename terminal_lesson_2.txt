@@ -33,7 +33,7 @@
 33.tail -n4 tf_5.txt
 34.head -4 tf_5.txt
 35.echo> file.txt rrrdtd 
-36.grep -Ir 'sec' |xargs mv -t dir_2
+36.grep -Ir 'sec'./* |xargs mv -backup =numbered -t./ dir_2 (grep -IL text . | % mv % ./dir
 37.grep Ir 'sec'| xargs cp -t dir_3
 38.grep -Ir sec >>tf_10.txt
 39.grep -Ir 'sec' |xargs rm
