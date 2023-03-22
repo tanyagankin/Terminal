@@ -1,0 +1,40 @@
+1.mkdir dir_1
+2.cd dir_1
+3.mkdir inner_dir_1
+4.pwd
+5.touch tf_1.txt
+6.cat> tf_2.txt(the first 1, the second 2,the third 3)
+7.cd inner_dir_1
+8.cat > tf_3.txt(apple,orange,apricot)
+9.cat >>tf_3.txt(the second 2)
+10.cat >>tf_3.txt(the sec 2)
+11.cat >>tf_2.txt(the sec 3)
+12.cat >>tf_3.txt(the SeCoNd 2)
+13.cat >>cat >>tf_2.txt(the seConD 2)
+14.cat >tf_4.txt(01-15)
+15.cat >tf_5.txt(01-13)
+16.ls- la
+17.cd ..
+18.ls cat inner_dir_1/tf_3.txt
+19.find -name "tf_4.txt"
+20.cat /dev/null >tf_4.txt
+21.find . -iname "*tf*"
+22.find . - name "*tf*"
+23.grep -r 'sec'
+24.grep -ir sec /grep -w sec
+25.grep -n "sec" /grep -wi 'sec'*g
+26.grep -n -i "sec"
+27.grep -ir second
+28.grep -ir second
+29.grep -i second *
+30.grep -I second *
+31.grep -L second *
+32.grep -riv "second"
+33.tail -n4 tf_5.txt
+34.head -4 tf_5.txt
+35.echo> file.txt rrrdtd 
+36.grep -Ir 'sec' |xargs mv -t dir_2
+37.grep Ir 'sec'| xargs cp -t dir_3
+38.grep -Ir sec >>tf_10.txt
+39.grep -Ir 'sec' |xargs rm
+40.echo "Good job!!!"  
